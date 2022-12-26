@@ -9,7 +9,11 @@ export default defineConfig({
     react({
       babel: {
         plugins: [
-          'twin',
+          ['twin', {
+            "exclude": [
+              "\x00commonjsHelpers.js" // Avoid build error
+            ]
+          }],
           'macros',
           '@emotion/babel-plugin'
         ]
