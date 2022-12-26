@@ -10,7 +10,15 @@ typescript 설정에서 jsxImportSource를 `@emotion/react`로 설정해줘야�
     "jsxImportSource": "@emotion/react"
 ```
 
-참고자료
+## 🤔
+
+### 많은 수의 endpoint를 가져야할떄
+
+- https://stackoverflow.com/questions/70522494/multiple-entry-points-in-vite
+
+
+
+## 참고자료
 
 - https://github.com/ben-rogerson/babel-plugin-twin/issues/9#issuecomment-1318545946
 - https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react
