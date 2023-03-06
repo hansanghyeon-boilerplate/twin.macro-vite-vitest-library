@@ -1,5 +1,5 @@
 {
-  "name": "twin.macro-vite",
+  "name": "twin.macro-vite-vitest-library",
   "private": true,
   "version": "0.0.0",
   "type": "module",
